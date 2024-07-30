@@ -1,0 +1,70 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: flex;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white; /* Set background color to white */
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc; /* Light gray border for inputs */
+  border-radius: 4px; /* Slightly rounded corners */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: white; /* White background */
+  color: black; /* Black text color */
+  border: 2px solid black; /* Black border */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Ensure button text is readable */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+  background-color: black; /* Black background on hover */
+  color: white; /* White text color on hover */
+  border-color: black; /* Ensure border matches background on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 1px solid #ddd; /* Light gray border for list items */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px; /* Slightly rounded corners */
+  word-wrap: break-word; /* Break long words to prevent overflow */
+  overflow-wrap: break-word; /* Ensure long words break */
+}
+
+li h3 {
+  margin: 0 0 5px 0;
+  color: black; /* Black color for heading */
+}
+
+li p {
+  margin: 0;
+  color: #333; /* Dark gray color for body text */
+  word-wrap: break-word; /* Break long words to prevent overflow */
+  overflow-wrap: break-word; /* Ensure long words break */
+  white-space: pre-wrap; /* Preserve whitespace and wrap long text */
+}
